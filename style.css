@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+}
+
+.split {
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.left {
+    left: 0;
+    background-color: blueviolet;
+}
+
+.right {
+    right: 0;
+    background-color: rgb(172, 247, 162);
+}
+
+.bring-front-full {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+  }
+  
+.front-text {
+    background: linear-gradient(to right, rgb(172, 247, 162) 50%, blueviolet 50%);
+    background-clip: text; /* Only the text gets the background given */
+    color: transparent;
+}
+
+.hover:hover {
+    color: black;
+}
+
+.text-center {
+    text-align: center;
+}
